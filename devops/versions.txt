@@ -1,0 +1,15 @@
+build.properties:
+-----------------
+sbt.version=1.3.10
+
+build.sbt:
+----------
+scalaVersion := "2.13.1"
+libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "1.0.0",
+libraryDependencies += "com.lihaoyi" %%% "scalatags" % "0.8.6",
+
+project/build.sbt:
+----------
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.0.1")
+
+

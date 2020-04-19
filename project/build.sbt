@@ -1,3 +1,3 @@
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.13")
-
-addSbtPlugin("com.lihaoyi" % "workbench" % "0.3.0")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.0.1")
+//addSbtPlugin("com.lihaoyi" % "workbench" % "0.4.1")
+libraryDependencies += "org.scala-js" %% "scalajs-env-jsdom-nodejs" % "1.0.0"
