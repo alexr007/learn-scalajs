@@ -12,7 +12,7 @@ case class Point(x: Int, y: Int) {
   def /(d: Int): Point = Point(x / d, y / d)
 }
 
-@JSExportTopLevel("app")
+//@JSExportTopLevel("app")
 object SJS002Canvas {
 
   @JSExport

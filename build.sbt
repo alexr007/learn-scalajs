@@ -25,7 +25,7 @@ testFrameworks += new TestFramework("utest.runner.Framework")
 val cname =
 //  "SJS000Print"
 //  "SJS001Minimal"
-  "SJS002Canvas"
+  "SJS003Polygon"
 mainClass in Compile := Some(s"learn_sjs.$cname")
 // rm -rf node_modules && npm i source-map-support jsdom
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
